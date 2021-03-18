@@ -19,15 +19,16 @@ end
 
 group :development do
   gem 'listen', '~> 3.3'
-  gem 'spring'
   gem 'rack-mini-profiler', '~> 2.0'
+  gem 'spring'
   gem 'web-console', '>= 4.1.0'
 end
 
 group :test do
   gem 'capybara', '>= 3.26'
   gem 'selenium-webdriver'
+  gem 'shoulda-matchers', '~> 4.0'
   gem 'webdrivers'
 end
 
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+# gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
