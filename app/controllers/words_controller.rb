@@ -2,7 +2,7 @@
 
 # Words controller class
 class WordsController < ApplicationController
-  def index
-    @words = Word.all
-  end
+	def index
+		@words = Word.all
+	end
 end
